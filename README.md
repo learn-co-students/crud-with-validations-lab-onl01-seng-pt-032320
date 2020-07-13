@@ -25,7 +25,7 @@ Songs have the following attributes and limitations:
 
 Use the `resource` generator, **not** the `scaffold` generator
 
-1.  Define a model with validations for `Song`.
+1.  Define a model with validations for `Song`. 
 
 2.  Define all RESTful routes for songs.
 
