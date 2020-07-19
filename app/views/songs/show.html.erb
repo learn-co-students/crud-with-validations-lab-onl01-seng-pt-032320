@@ -1,0 +1,10 @@
+<h2><%= @song.title %></h2>
+Aritst Name: <%= @song.artist_name%><br>
+<% if @song.released? %>
+Release Year: <%= @song.release_year %><br>
+<% else %>
+Release Year: pending
+<% end %>
+Genre: <% @song.genre%>
+<%= button_to "Delete Song", song_path(@image), method: :destroy %>
+<% end %>
