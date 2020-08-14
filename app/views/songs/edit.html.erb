@@ -14,12 +14,13 @@
   </div>
 <% end %>
 
+
   <%= form_for @song do |f| %>
     <%= f.text_field :title %>
-    <%= f.text_area :released %>
-    <%= f.text_area :release_year %>
-    <%= f.text_area :artist_name %>
-    <%= f.text_area :genre %>
+    <%= f.check_box :released %>
+    <%= f.text_field :release_year %>
+    <%= f.text_field :artist_name %>
+    <%= f.text_field:genre %>
     <%= f.submit %>
   <% end %>
 
